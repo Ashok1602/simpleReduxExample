@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.LoginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+.LoginForm {
+  padding: 5%;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.LoginFieldStyle {
+  margin: 10px;
+}
+.LoginForm Label {
+  font-size: large;
+  font-weight: 500;
+}
+.inputStyle {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.LoginForm Button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: green;
+  color: #fff;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -1,0 +1,10 @@
+export const COUNT = {
+  INCREMENT: "INCREMENT",
+  DECREMENT: "DECREMENT",
+};
+
+export const DEMO_API_CONST = {
+  REQUEST: "REQUEST",
+  SUCCESS: "SUCCESS",
+  FAILURE: "FAILURE",
+};
