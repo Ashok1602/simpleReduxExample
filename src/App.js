@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import ReduxExample from "./Components/SimpleReduxExample";
 // import Login from "./Components/LoginComponent";
