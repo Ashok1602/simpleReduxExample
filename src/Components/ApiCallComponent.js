@@ -27,8 +27,8 @@ function ApiCallComponent() {
   const getTableData = (response) => {
     return response.map((user, index) => {
       return (
-        <tr>
-          <td>{index + 1}</td> <td>{user.title}</td>{" "}
+        <tr key={index}>
+          <td>{index + 1}</td> <td>{user.title}</td>
         </tr>
       );
     });
@@ -37,7 +37,7 @@ function ApiCallComponent() {
     <div
       style={{
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "center                                                                                                                                         ",
       }}
       className='divScroll'
     >
